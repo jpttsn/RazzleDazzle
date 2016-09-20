@@ -289,6 +289,8 @@
 				TargetAttributes = {
 					FACD9C5C1B2A554100AC1614 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7W7LLX2H48;
+						LastSwiftMigration = 0800;
 					};
 					FACD9C671B2A554100AC1614 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -484,7 +486,9 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7W7LLX2H48;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -496,6 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -506,6 +511,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7W7LLX2H48;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -516,6 +522,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ifttt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
